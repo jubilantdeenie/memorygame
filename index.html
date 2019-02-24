@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Coffee Break Matching Game</title>
+    <meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link href="https://fonts.googleapis.com/css?family=Life+Savers:700|Nothing+You+Could+Do" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <div class="content container-fluid">
+
+		<div class="row">
+		<header class="banner col-12">
+            <h1>Coffee Break Match Game</h1>
+        </header>
+		</div>
+		  <section class="row score-panel">
+				<div class= "details col-4">
+					<!-- display progress-->
+					<div>
+						<p><span class="moves">0</span> Missed</p>
+					</div>
+
+					<div>
+						<p><span class="matches">0</span> Matched</p>
+					</div>
+						
+				</div>
+
+				<div class="stats col-4">
+				<!-- display stars-->
+					<div>
+						<ul class="stars">
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+							<li><i class="fa fa-star"></i></li>
+						</ul>
+					</div>
+
+					<p class="timer">Time</p>
+
+					<!-- display replay-->
+					<p>Refill?</p>
+
+					<div class="reset">
+						<ul>
+							<li class="restart">
+							<i class="fa fa-repeat"></i>
+							</li>
+						</ul>
+					</div>
+				</div>				
+			</section>
+
+		<!-- gameboard-->
+        <div class="row">
+			<div class="widescreen">
+				<ul class="deck">
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+					<li class="card col-xs-1 col-lg-3">
+						<img class="icon" src="">
+					</li>
+				</ul>
+			</div>
+		</div>
+    </div>
+
+
+<div class="row col-lg-10">
+
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+	  <!-- Modal content -->
+	  <div class="modal-content">
+		<span class="close">&times;</span>
+		<p>Winner!</p>
+
+		<!-- display stars, clicks, time -->
+		  <section class="score-panel">
+				<ul class="stars">
+					<li><i class="fa fa-star"></i></li>
+					<li><i class="fa fa-star"></i></li>
+					<li><i class="fa fa-star"></i></li>
+				</ul>
+
+				<p class="timer">Time:</p>
+				<span class="moves">0</span> Missed
+
+				<!--display replay-->
+				<p>Give it another go?</p>
+					<ul>
+						<li class="restart">
+							<i class="fa fa-repeat"></i>
+						</li>
+					</ul>
+			</section>
+	
+	  </div>
+	</div>
+</div>
+	
+    <script src="js/app.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+	</body>
+</html>
