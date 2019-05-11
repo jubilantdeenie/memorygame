@@ -94,7 +94,7 @@ for (i = 0; i < cards.length; i++) {
 			}
 
 	 //winning conditions			
-			if (matchCount == 1) {					
+			if (matchCount == 8) {					
 				game = false;
 				stopwatch[1].textContent = ('Time ' + time + ' seconds');
 
